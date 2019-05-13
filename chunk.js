@@ -13,3 +13,7 @@ function Chunk(arr, num) {
 }
 
 console.log(Chunk(array, 4));
+
+//more tests added by alican
+const array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+console.log(Chunk(array2, 6));
