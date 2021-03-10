@@ -3,7 +3,7 @@
 function titleCase(str) {
   return str
     .split(" ")
-    .map(i => i[0].toUpperCase() + i.substring(1))
+    .map((i) => i[0].toUpperCase() + i.substring(1))
     .join(" ");
 }
 
